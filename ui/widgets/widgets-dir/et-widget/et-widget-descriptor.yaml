@@ -1,0 +1,6 @@
+code: et-app-vue
+titles:
+  en: Entando Vue Template MF
+  it: Entando Vue Template MF
+group: free
+customUiPath: et-widget.ftl
