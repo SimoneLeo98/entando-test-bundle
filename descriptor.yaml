@@ -1,8 +1,8 @@
-code: ent-prj-tmpl-vue-bundle
-description: Template for ent projects with vue MFE
+code: entando-survey
+description: Create and edit simple surveys
 components:
-  plugins:
-    - plugins/entando-template-ms-plugin.yaml
+#  plugins:
+#    - plugins/ent-survey-ms-plugin.yaml
   widgets:
-    - ui/widgets/widgets-dir/et-widget/et-widget-descriptor.yaml
+    - ui/widgets/widgets-dir/ent-survey-widget/ent-survey-widget-descriptor.yaml
 
