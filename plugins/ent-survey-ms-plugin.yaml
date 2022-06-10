@@ -1,7 +1,7 @@
 image: germanogiudici/entando-survey:0.0.1-SNAPSHOT
 dbms: none
 ingressPath: "/ent-survey-api"
-healthCheckPath: "/api/healthcheck"
+healthCheckPath: "/actuator/health"
 roles:
   - "et-first-role"
   - "et-second-role"
