@@ -1,5 +1,5 @@
 image: germanogiudici/entando-survey:0.0.5-SNAPSHOT
-dbms: none
+dbms: postgresql
 ingressPath: "/entando-test"
 healthCheckPath: "/api/healthcheck"
 roles:
