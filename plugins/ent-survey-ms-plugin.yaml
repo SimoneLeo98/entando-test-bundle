@@ -1,4 +1,4 @@
-image: germanogiudici/entando-survey:0.0.7-SNAPSHOT
+image: germanogiudici/entando-survey:0.0.8-SNAPSHOT
 dbms: postgresql
 ingressPath: "/entando-test"
 healthCheckPath: "/api/healthcheck"
