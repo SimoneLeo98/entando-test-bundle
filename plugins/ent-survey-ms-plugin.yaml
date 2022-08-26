@@ -1,7 +1,6 @@
-image: germanogiudici/entando-survey:0.0.11-SNAPSHOT
+image: germanogiudici/entando-survey:0.0.12-SNAPSHOT
 dbms: postgresql
 ingressPath: "/entando-test"
 healthCheckPath: "/api/healthcheck"
 roles:
-  - "et-first-role"
-  - "et-second-role"
+  - "survey-admin"
