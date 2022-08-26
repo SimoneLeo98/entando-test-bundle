@@ -7,7 +7,8 @@ components:
   fragments:
     - fragments/es-keycloak-auth.yaml
   pages:
-    - pages/es-descriptor.yaml
+    - pages/es-insert-descriptor.yaml
+    - pages/es-query-descriptor.yaml
     - pages/es-keycloak-silent-check-sso-descriptor.yaml
   plugins:
     - plugins/ent-survey-ms-plugin.yaml
