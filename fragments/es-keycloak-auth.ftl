@@ -43,11 +43,9 @@
                 ...(window.entando || {}),
                 keycloak,
             };
-            const silentRedirectUri = window.location.origin + '/entando-de-app/en/es_keycloak_silent_check_sso.page';
             const initOptions = {
                 onLoad: 'login-required',
                 promiseType: 'native',
-                silentCheckSsoRedirectUri: silentRedirectUri,
                 enableLogging: true,
                 responseMode: 'query'
             };
