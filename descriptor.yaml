@@ -1,6 +1,14 @@
 code: entando-survey
 description: Create and edit simple surveys
 components:
+  pageModels:
+    - pageModels/es-page-descriptor.yaml
+    - pageModels/es-silent-check-sso-page-descriptor.yaml
+  fragments:
+    - fragments/es-keycloak-auth.yaml
+  pages:
+    - pages/es-descriptor.yaml
+    - pages/es-keycloak-silent-check-sso-descriptor.yaml
   plugins:
     - plugins/ent-survey-ms-plugin.yaml
   widgets:

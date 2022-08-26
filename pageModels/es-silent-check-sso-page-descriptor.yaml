@@ -1,0 +1,13 @@
+code: es-silent-check-sso
+description: Entando Survey Silent Check SSO
+configuration:
+  frames:
+    - pos: 0
+      description: Frame
+      mainFrame: false
+      sketch:
+        x1: 0
+        y1: 0
+        x2: 11
+        y2: 0
+templatePath: es-silent-check-sso-page.ftl
